@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className = 'login_from'>
+      <div className = 'login_header'>
+        <h1>歡迎來到程式的世界，請先登入</h1>
+      </div>
+      <div className = 'login_data'>
+        <div className = 'login_row'>
+          <label>帳號</label>
+          <input type = 'text' style = {{height:'2vh',borderRadius:5px}}></input>
+        </div>
+        <div className = 'login_row'>
+          <label>密碼</label>
+          <input type = 'text' style = {{height:'2vh',borderRadius:'5px',borderWidth:'1px'}}></input>
+        </div>
+      </div>
     </div>
   );
 }

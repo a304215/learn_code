@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+.login_row{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.login_from{
+  display:flex;
+  flex-direction: column;
+}
+.login_header{
+  display:flex;
+  justify-content: center;
+}
+.login_data div{
+  margin-bottom: 2vh;
+}
